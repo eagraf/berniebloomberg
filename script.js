@@ -8,6 +8,7 @@ function myTimer() {
         "What are the chances they both die in office?",
         "A love story waiting to happen",
         "Shot and chaser",
+        "Almost sounds like Bert and Ernie",
     ];
     document.getElementById("blah").innerHTML = jokes[Math.floor(Math.random() * jokes.length)]; 
  }
